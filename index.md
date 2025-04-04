@@ -55,18 +55,35 @@ Location data is used exclusively for:
 ### 3.1 Registration Data
 
 During registration, specialists provide:
-- Email (for verification)
-- Password (stored in encrypted form)
+
+- **Personal Information:**
+  - First and last name (for profile display)
+  - Account type (specialist, salon, training center)
+  - Specialization (area of expertise)
+
+- **Authentication Data:**
+  - Email (for verification)
+  - Password (stored in encrypted form)
+
+- **Contact Information:**
+  - Phone number (used for client communication)
+
+- **Location Information:**
+  - Country and city (for search functionality)
+  - Work address and postal code (for precise location generation)
+  - Geolocation, which can be set in three ways:
+    * Generated from the entered address and postal code
+    * Using current device location (if permission granted)
+    * Manually entering latitude and longitude coordinates
 
 ### 3.2 Professional Data
 
 Specialists can voluntarily add:
-- Contact information (phone, messengers)
-- Social media links
-- Work address
+- Additional contact information (messengers like WhatsApp, Viber)
+- Social media links (Instagram, Facebook, YouTube channel, TikTok, Telegram)
 - List of provided services
 - Portfolio photos
-- YouTube video links
+- YouTube video links (specific videos)
 - Service descriptions and professional activities
 
 ### 3.3 Payment Data
@@ -76,12 +93,14 @@ For subscription payments we store:
 - Order ID
 - Transaction date and amount
 
+There are no recurring subscriptions, in-app purchases, or additional payments required after registration.
+
 Note: Currently, the payment system operates in test mode. This means:
 - The payment process is fully demonstrated
 - You will be redirected to the payment provider interface
 - No actual charges are processed
 - This test mode is temporary during the platform's launch phase
-
+  
 ### 3.4 Public Data
 
 All data added by specialists to their profiles, except email and payment information, is publicly available in the application.
