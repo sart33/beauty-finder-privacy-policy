@@ -58,7 +58,7 @@ During registration, specialists provide:
 
 - **Personal Information:**
   - First and last name (for profile display)
-  - Account type (specialist, salon, training center)
+  - Account type (Specialist, Premium Specialist, Salon, Training Center)
   - Specialization (area of expertise)
 
 - **Authentication Data:**
